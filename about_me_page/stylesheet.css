@@ -1,0 +1,62 @@
+/*
+  Author:Levi Miller
+  Date:1/12/23
+  File:stylesheet.css
+  Individual Assignment:HTML/CSS Review CSS styles for my about me page
+
+ */
+body {
+    background-color: slateblue
+}
+
+h1 {
+    background-color: darkcyan;
+    width: 100%;
+    font-family: cursive, Bradley Hand;
+    color: orchid;
+}
+
+h2 {
+    font-family: "Franklin Gothic Heavy", serif;
+    color: orange;
+    float: right;
+    font-size: 50px;
+    padding-right: 30px;
+}
+
+h3 {
+    font-family: "Franklin Gothic Heavy", serif;
+    font-size: 30px;
+    color: orange;
+    padding: 20px;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+li {
+    font-family: cursive, Bradley Hand;
+    margin: 13px;
+    background-color: darkcyan;
+    width: 30%;
+    color: orange;
+    list-style: none;
+    border-radius: 49px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+img {
+    margin: 15px;
+    width: 300px;
+    border: 10px;
+    border-radius: 49px;
+    box-shadow: 11px 11px 6px darkslateblue;
+    float: right;
+}
+
+p {
+    font-size: 23px;
+    font-family: cursive, Bradley Hand;
+    color: orange;
+    text-indent: 35px;
+}
