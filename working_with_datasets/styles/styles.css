@@ -1,0 +1,84 @@
+/* layout logic */
+body {
+    padding-top: 30px;
+    display: grid;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("../img/mach E gt resized.jpg");
+
+}
+
+/* your styles go here... */
+#numberOfElements {
+    text-decoration: underline;
+}
+
+#percentageOfBentleys {
+    text-decoration: underline;
+}
+
+/*
+  Author:Levi Miller
+  Date:2/27/23
+  File:styles.css
+  Individual Assignment 3 Dataset CSS
+ */
+
+#numberOfBentleys {
+    text-decoration: underline
+}
+
+
+#manualTransmission {
+    text-decoration: underline;
+}
+
+#automaticTransmission {
+    text-decoration: underline;
+}
+
+#Model\ Year {
+    font-weight: bolder;
+}
+
+#left-column {
+    width: 500px;
+    border: 3px solid black;
+    margin: 0px;
+    border-radius: 20px;
+    height: 510px;
+    background-color: white;
+}
+
+#right-column {
+    width: 250px;
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0px;
+    height: 450px;
+    background-color: white;
+}
+
+section {
+    padding: 13px;
+}
+
+ul {
+    padding: 0px;
+
+}
+
+li {
+    padding-bottom: 13px;
+}
+
+#heading {
+    background-color: #efefef;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid black;
+}

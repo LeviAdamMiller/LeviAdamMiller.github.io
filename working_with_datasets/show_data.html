@@ -1,0 +1,80 @@
+<!--
+   Author:Levi Miller
+   Date:2/27/2023
+   File:show_data.html
+   Individual Assignment 3 Dataset HTML
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Dataset</title>
+
+    <!-- styles for the page... -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- reference the script with your JS array here... -->
+    <script src="scripts/dataset.js"></script>
+</head>
+<body>
+<main id="left-column">
+    <div id="heading">
+        <h1>Car Dataset</h1>
+        <p>This is a dataset about cars and how they drive.<br>
+            There are <span id="numberOfElements">number</span> elements in the dataset.</p>
+    </div>
+    <div id="outsideHeading">
+
+        <section>
+            <label>Model Year:</label>
+            <span id="Model Year">Value</span>
+        </section>
+        <section>
+            <label>City mpg:</label>
+            <span id="City">value</span>
+        </section>
+        <section>
+            <label>Highway mpg:</label>
+            <span id="Highway">Value</span>
+        </section>
+        <section>
+            <label>Driveline:</label>
+            <span id="drive">Value</span>
+        </section>
+
+        <section>
+            <label>Horsepower:</label>
+            <span id="Horsepower">Value</span>
+        </section>
+        <section>
+            <label>Torque:</label>
+            <span id="Torque:">Value</span>
+        </section>
+        <section>
+            <label>Transmission:</label>
+            <span id="transmission">Value</span>
+        </section>
+
+
+        <section>
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+        </section>
+    </div>
+</main>
+<aside id="right-column">
+    <h2>Here are some interesting facts in my dataset!</h2>
+    <ul>
+        <li>There are <span id="automaticTransmission"></span> cars with automatic transmission in the data set.</li>
+        <li>There are <span id="manualTransmission"></span> car's with manual transmission in the data set.</li>
+        <li> There are <span id="numberOfBentleys"> </span> Bentley's and that comes to a percentage of <span
+                id="percentageOfBentleys"></span>% in this data set.
+        </li>
+    </ul>
+</aside>
+
+<!-- reference the script with program behavior here... -->
+<script src="scripts/program_behavior.js"></script>
+</body>
+</html>
+
