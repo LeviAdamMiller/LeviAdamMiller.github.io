@@ -1,0 +1,77 @@
+/*
+  Author:Levi Miller
+  Date:3/16/23
+  File:styles.css
+  Individual Assignment Quiz Web Application
+ */
+html {
+    background-color: lightgreen;
+}
+
+body {
+    width: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#left,
+#right {
+    margin: 10px;
+    border: 1px solid darkblue;
+    padding: 20px;
+    background-color: bisque;
+}
+
+ul#answers {
+    margin: 4px 0;
+    padding: 0;
+}
+
+ul#answers li {
+    list-style-type: none;
+    border: 1px solid darkblue;
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: block;
+    width: 300px;
+    background-color: #d6effa;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+ul#answers li:hover {
+    background-color: lightblue;
+}
+
+#scores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#scores p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+#left button {
+    display: block;
+    margin: 10px auto;
+}
+
+#right h1,
+#right p {
+    margin-bottom: 12px;
+}
+
+#right h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#left img {
+    width: 150px;
+    display: block;
+    margin: 8px auto 0 auto;
+}
